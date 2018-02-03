@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidLabs_W2018</string>
+    <string name="startButton">I\'m a Button</string>
+</resources>
