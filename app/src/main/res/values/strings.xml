@@ -2,4 +2,18 @@
     <string name="app_name">AndroidLabs_W2018</string>
     <string name="startText">Welcome World!</string>
     <string name="startButton">I\'m a Button</string>
+
+    <!-- lab 02 strings -->
+    <string name="pageTitle02">BiblioNationale</string>
+    <string name="labTitle">Welcome to the National Library of Canada</string>
+    <string name="user">Username</string>
+    <string name="email">Email</string>
+    <string name="pwText">PW :</string>
+    <string name="passw">Password</string>
+    <string name="rButton">Register</string>
+    <string name="lButton">Login</string>
+    <drawable name="flag">@drawable/canadaflag</drawable>
+    <string name="flagDescript">Canada flag</string>
+    <color name="fontColour">#ea2a3f</color>
+
 </resources>
