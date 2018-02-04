@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.emma_jil.androidlabs_w2018.StartActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/background1">
 
     <TextView
         android:layout_width="match_parent"
@@ -13,18 +14,43 @@
         android:textColor="@color/colorAccent"
         android:fontFamily="cursive"
         android:textSize="20pt"
-        android:paddingTop="5pt"
         android:textAlignment="center"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/startButton"
-        android:layout_gravity="end"
+        android:id="@+id/startGo"
+        android:layout_gravity="center"
         android:background="#43a24b"
         android:paddingLeft="7pt"
         android:paddingRight="7pt"
         android:textColor="#ffffff"
         android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startDescript"
+        android:textStyle="italic"
+        android:fontFamily="casual"
+        android:textSize="8pt"
+        android:paddingTop="10dp"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startDescript2"
+        android:textStyle="bold|italic"
+        android:fontFamily="casual"
+        android:textSize="12pt"
+        android:textColor="#ffc100"
+        android:paddingTop="10dp"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt"
+        android:textAlignment="center"/>
 
 </android.widget.LinearLayout>

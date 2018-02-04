@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">AndroidLabs_W2018</string>
     <string name="startText">Welcome World!</string>
-    <string name="startButton">I\'m a Button</string>
+    <string name="startButton">I\'m a Button to the National Library</string>
+    <string name="startDescript">This button will take you to the National Library of Canada login page.</string>
+    <string name="startDescript2">Have fun!</string>
 
     <!-- lab 02 strings -->
     <string name="pageTitle02">BiblioNationale</string>
@@ -15,5 +17,7 @@
     <drawable name="flag">@drawable/canadaflag</drawable>
     <string name="flagDescript">Canada flag</string>
     <color name="fontColour">#ea2a3f</color>
+    <string name="LibraryLoginResult">Welcome Back!</string>
+    <string name="LibraryRegisterResult">Welcome New User!</string>
 
 </resources>
